@@ -16,10 +16,25 @@ body {
     justify-content: space-evenly;
 }
 header {
-    width: 100%;
+    width: 15%;
     color: var(--dark);
     font-family: var(--printfont);
 }
+nav {
+    width: 85%;
+    list-style-type: none;
+    /*display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;*/
+}
+nav ul li {
+    display: inline;
+    float: right;
+    padding: 2% 5% 0 5%;
+    
+}
+/*
 header h1 {
     display: flex;
     justify-content: center;
@@ -28,17 +43,13 @@ header p {
     display: flex;
     justify-content: center;
 }
+*/
 main {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-nav {
-    width: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .info {
     width: 85%;
     display: flex;
